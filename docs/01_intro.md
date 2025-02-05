@@ -1,6 +1,6 @@
 ## ¿Qué son los mecanismos?
 
-Los mecanismos están presentes en nuestra vida diaria y son fundamentales para el funcionamiento de muchas máquinas que usamos, como bicicletas, relojes o electrodomésticos. Un mecanismo es un conjunto de elementos que transforman o transmiten un movimiento y/o una fuerza para realizar un trabajo de manera más eficiente. 
+Los **mecanismos** están presentes en nuestra vida diaria y son fundamentales para el funcionamiento de muchas máquinas que usamos, como bicicletas, relojes o electrodomésticos. Un mecanismo es un conjunto de elementos que transforman o transmiten un movimiento y/o una fuerza para realizar un trabajo de manera más eficiente. 
 
 ![diferencial](media\diferencial.gif){ align=right width=30% }
 
