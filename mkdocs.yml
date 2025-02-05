@@ -1,0 +1,73 @@
+site_name: Mecanismos
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.top       
+    - navigation.sections   # Submenús laterales
+    - navigation.instant    # Navegación instantánea sin recargar la página
+    - navigation.expand
+
+nav:
+  - Inicio: index.md
+  - 1. Introducción: 01_intro.md
+  - 2. Fuerzas: 02_fuerza.md
+  - 3. Máquinas y mecanismos: 
+    - 3.1. Definición: 03_maquinas_mecanismos.md
+    - 3.2. Movimientos: 03_1_movimientos.md
+  - 4. Clasificación de los mecanismos: 04_clasificacion_mecanismos.md
+  - 5. Mecanismos de transmisión: 
+    - 5.1. Clasificación: 05_mecanismos_transmision.md
+    - 5.2. Mecanismos de transmisión lineal:
+      - 5.2.1. Palancas: 05_1_palancas.md
+      - 5.2.2. Poleas: 06_poleas.md
+    - 5.3. Mecanismos de transmisión circular: 
+      - 5.3.1. Sistemas de ruedas: 07_mecanismos_trans_circular.md
+      - 5.3.2. Engranajes: 08_engranajes.md
+      - 5.3.3. Tornillo sinfin: 09_tornillo_sinfin.md
+  - 6. Mecanismos de transformación de movimiento: 
+    - 6.1. Clasificación: 10_mecanismos_transformacion.md
+    - 6.1.1. Circular a lineal: 10_1_transformacion_circular_lineal.md
+    - 6.1.2. Lineal a circular alternativo: 10_2_transformacion _circular_lineal_alternativo.md
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-]+'
+
+
