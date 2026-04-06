@@ -6,7 +6,7 @@ Las **palancas** son objetos rígidos que giran entorno un punto de apoyo o **fu
 
 ![Palanca](media/palanca.png){ align=right width=40% }
 
-La palanca se encuentra en equilibrio cuando el producto de la fuerza (F), por su distancia al punto de apoyo (O) es igual al producto de la resistencia (R) por su distancia al punto de apoyo (r). Esta es la denominada **Ley de la palanca**, que matemáticamente se expresa como: (1)
+La palanca se encuentra en equilibrio cuando el producto de la fuerza (F), por su distancia al punto de apoyo (O) es igual al producto de la resistencia (R) por su distancia al punto de apoyo (r). Esta es la denominada **Ley de la palanca**, que matemáticamente se expresa como: (1) 
 
 
 \begin{equation}
