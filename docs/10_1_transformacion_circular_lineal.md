@@ -5,7 +5,7 @@ Puede pasar de un movimiento lineal del conductor a un movimiento circular en el
 
 ## Torno-Manivela {#conjunto-manivela-torno}
 
-![torno](/media/torno.png){ align=right width=40% }
+![torno](media/torno.png){ align=right width=40% }
 
 Una **manivela** es una barra unida a un eje al que hace girar. La fuerza que se necesita para girar este eje es menor que el que haría falta aplicar directamente.
 
@@ -26,28 +26,28 @@ Este mecanismo se emplea para:
 
 ## Piñón-Cremallera {#piñón-cremallera}
 
-![piñón cremallera](/media/pinoncremallera.jpg){ align=right width=40% }
+![piñón cremallera](media/pinoncremallera.jpg){ align=right width=40% }
 
 Este mecanismo está formado por una rueda dentada (**piñón**) que engrana con una barra también dentada llamada **cremallera**.
 
 Este mecanismo permite transformar el movimiento circular del piñón en movimiento rectilíneo en la cremallera (o viceversa). Dicho de otro modo, cuando el **piñón** gira, sus dientes empujan los de la **cremallera**, provocando el desplazamiento lineal de ésta. Si lo que se mueve es la cremallera, sus dientes empujan a los del piñón consiguiendo que éste gire sobre su eje. Es, por tanto, un mecanismo **reversible**.
 
-![rack](/media/rack.webp){ align=right width=30% }
+![rack](media/rack.webp){ align=right width=30% }
 
 Este mecanismo se emplea en el sistema de dirección de los automóviles, columnas de taladradoras, trípodes, sacacorchos, puertas de garajes....
 
 ## Tornillo-Tuerca {#tornillo-tuerca}
 
-![tornillo](/media/tornillo.jpg){ align=right width=19% }
+![tornillo](media/tornillo.jpg){ align=right width=19% }
 
 Mecanismo compuesto por un **eje roscado** (**husillo**) y una **tuerca** con la misma rosca que el eje. Si se gira la tuerca, ésta se desplaza linealmente sobre el husillo (y viceversa).
 
-![tornillo](/media/tornillo.gif){ align=left width=30% }
+![tornillo](media/tornillo.gif){ align=left width=30% }
 
 En este mecanismo, cada vez que la tuerca da una vuelta, ésta avanza linealmente una distancia que es igual al paso del tornillo (el paso es las distancia que hay entre dos crestas de la rosca).
 
 
-![tornillo](/media/tornillo.webp){ align=right width=19% }
+![tornillo](media/tornillo.webp){ align=right width=19% }
 
 
 Así por ejemplo en el gato de los coches, podemos conseguir un movimiento lineal (perpendicular al suelo) a partir de un movimiento circular (al girar la manivela). Otras aplicaciones son las uniones, grifos, compases de rosca, tapones de rosca....

@@ -1,34 +1,41 @@
 site_name: Mecanismos
 theme:
+  font:
+    text: Nunito
+    code: Roboto Mono
   name: material
   language: es
   features:
     - navigation.top       
     - navigation.sections   # Submenús laterales
     - navigation.instant    # Navegación instantánea sin recargar la página
-    - navigation.expand
+    - navigation.
+    - navigation.footer     # Agrega un pie de página con enlaces a la navegación
 
 nav:
   - Inicio: index.md
-  - 1. Introducción: 01_intro.md
-  - 2. Fuerzas: 02_fuerza.md
-  - 3. Máquinas y mecanismos: 
-    - 3.1. Definición: 03_maquinas_mecanismos.md
-    - 3.2. Movimientos: 03_1_movimientos.md
-  - 4. Clasificación de los mecanismos: 04_clasificacion_mecanismos.md
-  - 5. Mecanismos de transmisión: 
-    - 5.1. Clasificación: 05_mecanismos_transmision.md
-    - 5.2. Mecanismos de transmisión lineal:
-      - 5.2.1. Palancas: 05_1_palancas.md
-      - 5.2.2. Poleas: 06_poleas.md
-    - 5.3. Mecanismos de transmisión circular: 
-      - 5.3.1. Sistemas de ruedas: 07_mecanismos_trans_circular.md
-      - 5.3.2. Engranajes: 08_engranajes.md
-      - 5.3.3. Tornillo sinfin: 09_tornillo_sinfin.md
-  - 6. Mecanismos de transformación de movimiento: 
-    - 6.1. Clasificación: 10_mecanismos_transformacion.md
-    - 6.1.1. Circular a lineal: 10_1_transformacion_circular_lineal.md
-    - 6.1.2. Lineal a circular alternativo: 10_2_transformacion _circular_lineal_alternativo.md
+  - A. Introducción: 
+    - 1. Introducción: 01_intro.md
+    - 2. Fuerzas: 02_fuerza.md
+    -  ❓Cuestionario: cuestionarios/cuestionario-introduccion.md
+  - B. Máquinas y mecanismos: 
+    - 3. Definición: 03_maquinas_mecanismos.md
+    - 4. Movimientos: 03_1_movimientos.md
+    - 5. Clasificación de los mecanismos: 05_clasificacion_mecanismos.md
+    -  ❓Cuestionario: cuestionarios/cuestionario-maquinas.md
+  - C. Mecanismos de transmisión de movimiento: 
+    - 6. Clasificación: 06_mecanismos_transmision.md
+    - 7. Mecanismos de transmisión lineal:
+      - 7.1. Palancas: 07_1_palancas.md
+      - 7.2. Poleas: 07_2_poleas.md
+    - 8. Mecanismos de transmisión circular:
+      - 8.1. Ruedas de fricción y poleas de transmisión: 08_1_mecanismos_trans_circular.md
+      - 8.2. Engranajes: 08_2_engranajes.md
+      - 8.3. Tornillo sinfin: 08_3_tornillo_sinfin.md
+  - D. Mecanismos de transformación de movimiento: 
+    - 9. Clasificación: 09_mecanismos_transformacion.md
+    # # - 6.1.1. Circular a lineal: 10_1_transformacion_circular_lineal.md
+    # - 6.1.2. Lineal a circular alternativo: 10_2_transformacion_circular_lineal_alternativo.md
 
 
 markdown_extensions:
@@ -60,14 +67,15 @@ extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/quiz.js
+  - js/cuestionario-generico.js
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
-
+  - css/quiz.css
+  - css/cuestionarios.css
 
 plugins:
   - search:
       lang: es
       separator: '[\s\-]+'
-
-

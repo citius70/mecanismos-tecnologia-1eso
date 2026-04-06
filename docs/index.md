@@ -1,9 +1,11 @@
-![Static Badge](https://img.shields.io/badge/Elaborado_por-Alberto_Dur%C3%A1n_P%C3%A9rez-blue) [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+# Inicio
+
+![Static Badge](https://img.shields.io/badge/Elaborado_por-Alberto_Dur%C3%A1n_P%C3%A9rez-blue)
 
 
 ![mecanismos](media/image-3.png){ align=right width=20% }
 
-¡Bienvenidos al curso de **Mecanismos** para **1º ESO** ! En este curso aprenderás cómo funcionan las máquinas y los sistemas que utilizamos en nuestra vida cotidiana, desde los más simples hasta los más complejos. Los mecanismos están en todas partes: en bicicletas, puertas automáticas, relojes, grúas y mucho más. Comprenderlos te ayudará no solo a saber cómo funcionan las cosas, sino también a diseñar e imaginar tus propias creaciones.
+¡Bienvenidos al curso de **Mecanismos** para **1º ESO** ! En este curso aprenderás cómo funcionan las **máquinas** que utilizamos en nuestra vida cotidiana, desde las más simples hasta las más complejos. Los **mecanismos** están en todas partes: en bicicletas, puertas automáticas, relojes, grúas y mucho más. Comprenderlos te ayudará no solo a saber cómo funcionan las cosas, sino también a diseñar e imaginar tus propias creaciones.
 
 ## ¿Qué aprenderás en este curso?
 
@@ -16,7 +18,7 @@ A lo largo de este curso, exploraremos los fundamentos de los mecanismos. Alguno
 
 ## ¿Por qué es importante aprender sobre mecanismos?
 
-Los mecanismos son fundamentales en el diseño de máquinas y herramientas que hacen nuestra vida más fácil. Al aprender sobre ellos, desarrollarás habilidades para:
+Los **mecanismos** son fundamentales en el diseño de máquinas y herramientas que hacen nuestra vida más fácil. Al aprender sobre ellos, desarrollarás habilidades para:
 
 - Resolver problemas técnicos.
 - Comprender cómo funcionan las herramientas y los dispositivos.

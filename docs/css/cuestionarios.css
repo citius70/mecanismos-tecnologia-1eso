@@ -1,0 +1,28 @@
+button {
+    background-color: var(--md-primary-fg-color);
+    border: none;
+    color: var(--md-primary-bg-color);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .feedback.correcto {
+    color: var(--md-primary-fg-color);
+  }
+  
+  .feedback.incorrecto {
+    color: var(--md-accent-fg-color);
+  }
+  

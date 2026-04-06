@@ -9,22 +9,28 @@
       
       
       
-        <link rel="prev" href="../02_fuerza/">
+        <link rel="prev" href="../cuestionarios/cuestionario-introduccion/">
       
       
         <link rel="next" href="../03_1_movimientos/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+      <meta name="generator" content="zensical-0.0.31">
     
     
       
-        <title>3.1. Definición - Mecanismos</title>
+        <title>3. MÁQUINAS Y MECANISMOS - Mecanismos</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.53a7feaf.min.css">
       
       
 
@@ -38,18 +44,21 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,500,500i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito";--md-code-font:"Roboto Mono"}</style>
       
     
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../css/quiz.css">
+    
+      <link rel="stylesheet" href="../css/cuestionarios.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
 
-    
     
     
   </head>
@@ -60,7 +69,7 @@
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
+    <label class="md-overlay" for="__drawer" aria-label="Navegación"></label>
     <div data-md-component="skip">
       
         
@@ -80,15 +89,15 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href=".." title="Mecanismos" class="md-header__button md-logo" aria-label="Mecanismos" data-md-component="logo">
+    <a href="./.." title="Mecanismos" class="md-header__button md-logo" aria-label="Mecanismos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
 
     </a>
-    <label class="md-header__button md-icon" for="__drawer">
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navegación">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -100,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3.1. Definición
+              3. MÁQUINAS Y MECANISMOS
             
           </span>
         </div>
@@ -112,44 +121,22 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Buscar">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
       
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Inicializando búsqueda
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Buscar">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Buscar">
+  <button type="button" class="md-search__button">
+    Buscar
+  </button>
 </div>
+      
     
-    
+    <div class="md-header__source">
+      
+    </div>
   </nav>
   
 </header>
@@ -175,10 +162,10 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Mecanismos" class="md-nav__button md-logo" aria-label="Mecanismos" data-md-component="logo">
+    <a href="./.." title="Mecanismos" class="md-nav__button md-logo" aria-label="Mecanismos" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
 
     </a>
     Mecanismos
@@ -193,12 +180,19 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="./.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Inicio
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -208,6 +202,58 @@
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A. Introducción
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    A. Introducción
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -216,18 +262,26 @@
       <a href="../01_intro/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     1. Introducción
+  
+
+    
   </span>
+  
   
 
       </a>
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -236,12 +290,55 @@
       <a href="../02_fuerza/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     2. Fuerzas
+  
+
+    
   </span>
+  
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios/cuestionario-introduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ❓Cuestionario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -254,6 +351,7 @@
   
   
   
+    
     
     
     
@@ -267,24 +365,35 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
-    3. Máquinas y mecanismos
+    
+  
+    B. Máquinas y mecanismos
+  
+
+    
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            3. Máquinas y mecanismos
+            
+  
+    B. Máquinas y mecanismos
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -298,7 +407,7 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
       
       
         
@@ -307,25 +416,40 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
-    3.1. Definición
+    
+  
+    3. Definición
+  
+
+    
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <a href="././" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
-    3.1. Definición
+    
+  
+    3. Definición
+  
+
+    
   </span>
+  
   
 
       </a>
       
         
+
 
 <nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
@@ -343,7 +467,9 @@
         <li class="md-nav__item">
   <a href="#máquinas" class="md-nav__link">
     <span class="md-ellipsis">
-      2.1. MÁQUINAS
+      
+        3.1. Máquinas
+      
     </span>
   </a>
   
@@ -352,7 +478,9 @@
         <li class="md-nav__item">
   <a href="#mecanismos" class="md-nav__link">
     <span class="md-ellipsis">
-      2.2. MECANISMOS
+      
+        3.2. Mecanismos
+      
     </span>
   </a>
   
@@ -377,9 +505,72 @@
       <a href="../03_1_movimientos/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    3.2. Movimientos
+    
+  
+    4. Movimientos
+  
+
+    
   </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_clasificacion_mecanismos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Clasificación de los mecanismos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios/cuestionario-maquinas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ❓Cuestionario
+  
+
+    
+  </span>
+  
   
 
       </a>
@@ -401,26 +592,7 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../04_clasificacion_mecanismos/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    4. Clasificación de los mecanismos
-  </span>
-  
-
-      </a>
-    </li>
-  
-
     
-      
-      
-  
-  
-  
-  
     
     
     
@@ -434,26 +606,35 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
-    5. Mecanismos de transmisión
+    
+  
+    C. Mecanismos de transmisión de movimiento
+  
+
+    
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            5. Mecanismos de transmisión
+            
+  
+    C. Mecanismos de transmisión de movimiento
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -464,12 +645,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../05_mecanismos_transmision/" class="md-nav__link">
+      <a href="../06_mecanismos_transmision/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.1. Clasificación
+    
+  
+    6. Clasificación
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -484,6 +672,7 @@
   
   
   
+    
     
     
     
@@ -494,26 +683,35 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
-    5.2. Mecanismos de transmisión lineal
+    
+  
+    7. Mecanismos de transmisión lineal
+  
+
+    
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            5.2. Mecanismos de transmisión lineal
+            
+  
+    7. Mecanismos de transmisión lineal
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -524,12 +722,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../05_1_palancas/" class="md-nav__link">
+      <a href="../07_1_palancas/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.2.1. Palancas
+    
+  
+    7.1. Palancas
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -545,12 +750,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_poleas/" class="md-nav__link">
+      <a href="../07_2_poleas/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.2.2. Poleas
+    
+  
+    7.2. Poleas
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -573,6 +785,7 @@
   
   
   
+    
     
     
     
@@ -583,26 +796,35 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
             
   
+  
   <span class="md-ellipsis">
-    5.3. Mecanismos de transmisión circular
+    
+  
+    8. Mecanismos de transmisión circular
+  
+
+    
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            5.3. Mecanismos de transmisión circular
+            
+  
+    8. Mecanismos de transmisión circular
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -613,12 +835,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../07_mecanismos_trans_circular/" class="md-nav__link">
+      <a href="../08_1_mecanismos_trans_circular/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.3.1. Sistemas de ruedas
+    
+  
+    8.1. Ruedas de fricción y poleas de transmisión
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -634,12 +863,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../08_engranajes/" class="md-nav__link">
+      <a href="../08_2_engranajes/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.3.2. Engranajes
+    
+  
+    8.2. Engranajes
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -655,12 +891,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_tornillo_sinfin/" class="md-nav__link">
+      <a href="../08_3_tornillo_sinfin/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    5.3.3. Tornillo sinfin
+    
+  
+    8.3. Tornillo sinfin
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -690,6 +933,7 @@
   
   
   
+    
     
     
     
@@ -703,26 +947,35 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
-    6. Mecanismos de transformación de movimiento
+    
+  
+    D. Mecanismos de transformación de movimiento
+  
+
+    
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            6. Mecanismos de transformación de movimiento
+            
+  
+    D. Mecanismos de transformación de movimiento
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -733,54 +986,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../10_mecanismos_transformacion/" class="md-nav__link">
+      <a href="../09_mecanismos_transformacion/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    6.1. Clasificación
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10_1_transformacion_circular_lineal/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    6.1.1. Circular a lineal
-  </span>
+    
+  
+    9. Clasificación
   
 
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10_2_transformacion%20_circular_lineal_alternativo/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    6.1.2. Lineal a circular alternativo
+    
   </span>
+  
   
 
       </a>
@@ -806,8 +1024,22 @@
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
                   <div class="md-sidebar__inner">
                     
+
 
 <nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
@@ -825,7 +1057,9 @@
         <li class="md-nav__item">
   <a href="#máquinas" class="md-nav__link">
     <span class="md-ellipsis">
-      2.1. MÁQUINAS
+      
+        3.1. Máquinas
+      
     </span>
   </a>
   
@@ -834,7 +1068,9 @@
         <li class="md-nav__item">
   <a href="#mecanismos" class="md-nav__link">
     <span class="md-ellipsis">
-      2.2. MECANISMOS
+      
+        3.2. Mecanismos
+      
     </span>
   </a>
   
@@ -850,21 +1086,71 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
-
-<h1 id="máquinas-y-mecanismos">2. MÁQUINAS Y MECANISMOS</h1>
-<h2 id="máquinas">2.1. MÁQUINAS</h2>
+<h1 id="máquinas-y-mecanismos">3. MÁQUINAS Y MECANISMOS</h1>
+<h2 id="máquinas">3.1. Máquinas</h2>
 <p>El ser humano a lo largo de la historia ha inventado una serie de dispositivos o artilugios llamados <strong>máquinas</strong> que le facilitan y, en muchos casos, posibilitan la realización de una tarea.</p>
 <div class="admonition note">
 <p class="admonition-title">Máquina</p>
 <p>Una <strong>máquina</strong> es el conjunto de elementos fijos y/o móviles conectados entre sí que transforman/transmiten una forma de energía en otra más útil, realizando algún efecto (movimiento, calentamiento, ...).</p>
 </div>
-<p><img align="right" alt="Fragua" src="/media/fragua.jpg" width="40%" /></p>
+<pre class="mermaid"><code>flowchart LR
+    %% ENTRADA
+    subgraph A [ENTRADA]
+        A1["Energía de entrada&lt;br&gt;(eléctrica, térmica, mecánica...)"]
+    end
+
+    %% MÁQUINA
+    subgraph B [MÁQUINA]
+        B1[Elementos fijos]
+        B2[Elementos móviles]
+        B3[Transforman o transmiten&lt;br&gt;la energía]
+    end
+
+    %% SALIDA
+    subgraph C [SALIDA]
+        C1["Energía útil&lt;br&gt;(eléctrica, térmica, mecánica...)"]
+        C2[Efectos]
+        C3[Movimiento]
+        C4[Calor]
+        C5[Fuerza]
+    end
+
+    %% FLUJO PRINCIPAL
+    A1 --&gt; B3
+    B3 --&gt; C1
+
+    %% RELACIONES INTERNAS
+    B1 --&gt; B3
+    B2 --&gt; B3
+
+    %% RESULTADOS
+    C1 --&gt; C2
+    C2 --&gt; C3
+    C2 --&gt; C4
+    C2 --&gt; C5
+
+    %% COLORES
+    style A fill:#d4f8d4,stroke:#2e7d32,stroke-width:3px
+    style B fill:#d4e4ff,stroke:#1e3a8a,stroke-width:6px
+    style C fill:#ffe0b2,stroke:#e65100,stroke-width:3px
+
+    style A1 fill:#e8fce8,stroke:#2e7d32,stroke-width:2px
+    style B1 fill:#eaf1ff,stroke:#1e3a8a,stroke-width:2px
+    style B2 fill:#eaf1ff,stroke:#1e3a8a,stroke-width:2px
+    style B3 fill:#eaf1ff,stroke:#1e3a8a,stroke-width:2px
+    style C1 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C2 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C3 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C4 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style C5 fill:#fff3e0,stroke:#e65100,stroke-width:2px</code></pre>
+<p><img align="right" alt="Fragua" src="../media/fragua.jpg" width="40%" /></p>
 <p>En la figura, se observa una antigua <strong>fragua hidráulica</strong>. La fuerza del agua movía el martillo, facilitando la labor para elaborar todo tipo de herramientas.</p>
-<p>Prácticamente cualquier objeto puede llegar a convertirse en una máquina, sólo hay que darle la utilidad adecuada.  Por ejemplo, una <strong>cuesta</strong> o <strong>plano inclinado</strong>  no es, en principio, una máquina, <img align="right" alt="Cuesta" src="/media/cuesta.jpg" width="40%" /> pero se convierte en ella cuando el ser humano la usa para elevar objetos con un menor esfuerzo (es más fácil subir objetos por una cuesta que elevarlos a pulso). Lo mismo sucede con un simple palo que nos encontramos tirado en el suelo, si lo usamos para mover algún objeto a modo de palanca ya lo hemos convertido en una máquina</p>
+<p>Prácticamente cualquier objeto puede llegar a convertirse en una máquina, sólo hay que darle la utilidad adecuada.  Por ejemplo, una <strong>cuesta</strong> o <strong>plano inclinado</strong>  no es, en principio, una máquina, <img align="right" alt="Cuesta" src="../media/cuesta.jpg" width="40%" /> pero se convierte en ella cuando el ser humano la usa para elevar objetos con un menor esfuerzo (es más fácil subir objetos por una cuesta que elevarlos a pulso). Lo mismo sucede con un simple palo que nos encontramos tirado en el suelo, si lo usamos para mover algún objeto a modo de palanca ya lo hemos convertido en una máquina</p>
 <p>Las máquinas suelen clasificarse atendiendo a su complejidad en máquinas simples y máquinas compuestas:</p>
 <ul>
 <li>
@@ -877,14 +1163,64 @@
 <p><strong>Máquinas complejas:</strong> realizan el trabajo encadenando distintos pasos o etapas. Por ejemplo, un cortauñas realiza su trabajo en dos pasos: una palanca le transmite la fuerza a otra, la cual se encarga de apretar los extremos en forma de cuña.</p>
 </li>
 </ul>
-<h2 id="mecanismos">2.2. MECANISMOS</h2>
+<h2 id="mecanismos">3.2. Mecanismos</h2>
 <p>Mientras que las <strong>estructuras</strong> (partes fijas) de las máquinas soportan fuerzas de un modo estático (es decir, sin moverse), los <strong>mecanismos</strong> (partes móviles) permiten el movimiento de los objetos.</p>
 <div class="admonition note">
 <p class="admonition-title">Mecanismos</p>
 <p>Los <strong>mecanismos</strong> son los elementos de una máquina destinados a transmitir y transformar las fuerzas y movimientos desde un elemento <strong>motriz</strong> (o motor) a un elemento <strong>receptor</strong>; permitiendo al ser humano realizar trabajos con mayor comodidad y/o, menor esfuerzo (o en menor tiempo).</p>
 </div>
+<pre class="mermaid"><code>flowchart LR
+    %% ENTRADA
+    subgraph A [ENTRADA]
+        A1[Elemento motriz / Motor]
+    end
+
+    %% MECANISMOS
+    subgraph B [MECANISMOS]
+        B1[MECANISMOS]
+    end
+
+    %% ACCIONES
+    subgraph C [ACCIONES]
+        C1[Transmiten fuerzas]
+        C2[Transmiten/Transforman movimientos]
+    end
+
+    %% SALIDA
+    subgraph D [SALIDA]
+        D1[Elemento receptor]
+        D2[Trabajo con mayor comodidad]
+        D3[Trabajo con menor esfuerzo]
+        D4[Trabajo en menos tiempo]
+    end
+
+    %% FLUJO PRINCIPAL
+    A1 --&gt; B1
+    B1 --&gt; C1
+    B1 --&gt; C2
+    B1 --&gt; D1
+    D1 --&gt; D2
+    D1 --&gt; D3
+    D1 --&gt; D4
+
+    %% COLORES
+    style A fill:#d4f8d4,stroke:#2e7d32,stroke-width:3px
+    style B fill:#d4e4ff,stroke:#1e3a8a,stroke-width:6px
+    style C fill:#e0f0ff,stroke:#1e3a8a,stroke-width:3px
+    style D fill:#ffe0b2,stroke:#e65100,stroke-width:3px
+
+    style A1 fill:#e8fce8,stroke:#2e7d32,stroke-width:2px
+    style B1 fill:#eaf1ff,stroke:#1e3a8a,stroke-width:2px
+    style C1 fill:#e0f7ff,stroke:#1e3a8a,stroke-width:2px
+    style C2 fill:#e0f7ff,stroke:#1e3a8a,stroke-width:2px
+    style D1 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D2 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D3 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D4 fill:#fff3e0,stroke:#e65100,stroke-width:2px</code></pre>
 <p>En todo mecanismo resulta indispensable un <strong>elemento motriz</strong> que origine el movimiento (que puede ser un muelle, una corriente de agua, nuestros músculos, un motor eléctrico…).</p>
 <p>El movimiento originado por el motor se transforma y/o transmite a través de los mecanismos a los <strong>elementos receptores</strong> (ruedas, brazos mecánicos...) realizando el trabajo para el que fueron construidos.</p>
+
+
 
 
 
@@ -907,7 +1243,7 @@
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
   Volver al principio
 </button>
         
@@ -915,14 +1251,54 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../cuestionarios/cuestionario-introduccion/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: ❓Cuestionario">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                ❓Cuestionario
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../03_1_movimientos/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 4. Movimientos">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                4. Movimientos
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
   
     Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
     </a>
   
 </div>
@@ -937,16 +1313,23 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.sections", "navigation.instant", "navigation.expand"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["navigation.top","navigation.sections","navigation.instant","navigation.","navigation.footer"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copiado al portapapeles","clipboard.copy":"Copiar al portapapeles","search.result.more.one":"1 más en esta página","search.result.more.other":"# más en esta página","search.result.none":"No se encontraron documentos","search.result.one":"1 documento encontrado","search.result.other":"# documentos encontrados","search.result.placeholder":"Teclee para comenzar búsqueda","search.result.term.missing":"Falta","select.version":"Seleccionar versión"},"version":null}</script>
     
     
-      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../assets/javascripts/bundle.91a19a9e.min.js"></script>
       
         <script src="../javascripts/katex.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../js/quiz.js"></script>
+      
+        <script src="../js/cuestionario-generico.js"></script>
       
     
   </body>

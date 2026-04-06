@@ -1,4 +1,4 @@
-# 1. CONCEPTO DE FUERZA
+# 2. CONCEPTO DE FUERZA
 
 A pesar de haber hablado de la fuerza en temas anteriores, conviene volver a repasar y profundizar un poco más en el concepto de **fuerza**.
 
@@ -49,11 +49,11 @@ $$donde \begin{cases}
 
 La aceleración de la gravedad **g** la aceleración de la gravedad, que en la **superficie terrestre** es aproximadamente $9,81\thickspace \dfrac{m}{s^2}$.
 
-## 1.1 DIFERENCIA ENTRE PESO Y MASA
+## 2.1. DIFERENCIA ENTRE PESO Y MASA
 
 **Peso (P) y masa (m)** son dos conceptos y magnitudes físicas bien diferenciadas. Sin embargo, en el habla cotidiana el término peso se utiliza a menudo erróneamente como sinónimo de masa. Así, cuando determinamos la masa de un cuerpo decimos erróneamente que lo pesamos, y que su peso es de tantos kilogramos.
 
-### 1.1.1. Masa (m)
+### 2.1.1. Masa (m)
 
 La **masa (m)**  de un cuerpo es una *propiedad intrínseca* (propia del mismo). Es la cantidad de materia que lo compone (independiente del campo gravitatorio) y se calcula sumando la masa de todos los átomos que forman el cuerpo.
 
@@ -61,7 +61,7 @@ La **masa (m)**  de un cuerpo es una *propiedad intrínseca* (propia del mismo).
 
 Por ejemplo, una persona de 80 kg de masa seguirá teniendo 80 kg de masa, independientemente de si se encuentra en la Tierra o si se encuentra en la Luna, ya que es una propiedad intrínseca.
 
-### 1.1.2. Peso (P)
+### 2.1.2. Peso (P)
 
 Por otro lado, el **peso (P)** es la *fuerza* con la que se ve atraído un cuerpo por un campo gravitatorio como es, en nuestro caso, la Tierra. Por tanto, el peso de un cuerpo *no es una propiedad intrínseca* del mismo, ya que depende del campo gravitatorio del lugar donde se encuentre.
 
