@@ -23,10 +23,10 @@ Imagina que quieres levantar un objeto muy pesado. Si lo intentas solo con tus m
 
 En este tema aprenderemos:
 
--   A identificar diferentes tipos de mecanismos.
+-  A identificar diferentes tipos de mecanismos.
 
--   A comprender cómo funcionan y para qué se utilizan.
+-  A comprender cómo funcionan y para qué se utilizan.
 
--   A construir algunos mecanismos simples para entender su utilidad.
+-  A construir algunos mecanismos simples para entender su utilidad.
 
 ¡Vamos a descubrir el mundo de los mecanismos y cómo hacen nuestra vida más fácil!
